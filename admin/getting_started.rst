@@ -1,4 +1,4 @@
-﻿.. _getting-started:
+.. _getting-started:
 
 Chapter 2. Getting Started
 **************************
@@ -143,7 +143,7 @@ Obtaining a License
 
 New clients can obtain a license via this process.
 
-#. Fill out the `application form <http://ston.winesoft.co.kr/EULR.doc>`_.
+#. Fill out the `application form <http://www.winesoft.us/lic_req.doc>`_.
 #. Email the completed form to license@winesoft.co.kr.
 #. The license will be issued after confirmation.
 
