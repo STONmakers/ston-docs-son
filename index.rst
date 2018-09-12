@@ -79,8 +79,8 @@ Appendix
    admin/graph
    admin/cacti
    admin/dynpage_exception
-   admin/releasenote
-   admin/releasenote_enterprise
+   admin/releasenote.rst
+   admin/releasenote_enterprise.rst
 
 
 .. figure:: WineSOFT_origin.png
