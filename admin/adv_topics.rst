@@ -1,6 +1,6 @@
 ﻿.. _adv_topics:
 
-Chapter 18. Optimization and More
+Chapter 19. Optimization and More
 *********************************
 
 This chapter will discuss optimization and other miscellaneous advanced topics. Optimization is a method used to obtain high performance, which is biggest merit that we are pursuing. In an enterprise environment, if hardware is high-performance, it can also mean that it uses as much resources as possible.
