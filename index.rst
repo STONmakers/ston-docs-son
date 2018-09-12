@@ -82,7 +82,6 @@ Appendix
    admin/releasenote.rst
    admin/releasenote_enterprise.rst
 
-
 .. figure:: WineSOFT_origin.png
    :align: left
    :width: 200px
