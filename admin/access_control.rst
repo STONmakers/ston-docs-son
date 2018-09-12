@@ -1,6 +1,6 @@
 ﻿.. _access-control:
 
-Chapter 14. Access Control
+Chapter 15. Access Control
 **************************
 
 This chapter will explain how to deny access to unwanted clients. Denying access can be done by setting up a blacklist in the Access Control List (ACL), but for the sake of convenience, a whitelist can also be configured.
