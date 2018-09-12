@@ -1,6 +1,6 @@
 .. _release:
 
-Appendix D: Release Notes
+Appendix D: Release Notes ``[CDN]``
 ***************************
 
 v2.5.x
