@@ -1,6 +1,6 @@
 ﻿.. _bandwidth_control:
 
-Chapter 15. Bandwidth
+Chapter 16. Bandwidth
 *********************
 
 This chapter will explain various ways to set bandwidth limits for each virtual host. In the past, the objective was generally to prevent bandwidth from exceeding a fixed limit. However, the idea has changed into regulating bandwidth to be effective. It is now possible to analyze content in real time to optimize the use of bandwidth.
