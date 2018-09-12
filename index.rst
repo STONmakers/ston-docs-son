@@ -80,6 +80,7 @@ Appendix
    admin/cacti
    admin/dynpage_exception
    admin/releasenote
+   admin/releasenote_enterprise
 
 
 .. figure:: WineSOFT_origin.png
