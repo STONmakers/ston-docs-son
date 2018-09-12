@@ -10,7 +10,8 @@ v18.x
 ----------------------------
 
 **Bug Fix**
- - HTTPS: Infrequent disconnection
+
+- HTTPS: Infrequent disconnection
 
 
 
