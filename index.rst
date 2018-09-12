@@ -9,7 +9,7 @@ STON Edge Server Complete Guide
 
 :Author: WineSOFT Inc.
 
-:Version: 18.07.0, Jul 10, 2018
+:Version: ``[CDN]`` v2.6.2 / ``[Enterprise]`` v18.09.2
 
 0. Overview
 =============================
