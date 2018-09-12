@@ -26,6 +26,7 @@ v18.x
 ----------------------------
 
 **Feature/Policy Updates**
+
 - Improved HTTPS performance
 - ECDSA certificate support for HTTPS
 - Expires headers: Max-Age option from the origin 
