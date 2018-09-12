@@ -1,6 +1,6 @@
 .. _media:
 
-Chapter 16. Media
+Chapter 17. Media
 ******************
 
 This chapter will explain how to intelligently handle media in the service. Due to there being various client environments and service diversity, there will be many cases where content must be processed in various ways. As such, identical content will exist on the origin server in different forms. This method will not just require more processing time and storage space, it is also hard to maintain.
