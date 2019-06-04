@@ -26,7 +26,51 @@ v19.x
 
     - Unintended termination from GeoIP2 settings (GeoIP2 does not support database file overwriting)
     
+19.04.0 (2019.4.11)
+----------------------
+
+**Feature/Policy Updates**
+    - Configurable disk cleaning policy 
+    - Improved config reloading API response 
+    - HTTPS: Improved logging for certificate settings
+
+**Bug Fixes**
+    - Web Management: System setting malfunction in English language 
+    - Web Management: Memory graph error in English language (showing a negative value)
+    - Web Management: Disk setting graphing error in English language 
+    - HTTPS: Unintended termination from unsupported certificate key files
     
+19.03.0 (2019.3.13)
+----------------------
+
+**Feature/Policy Update**
+    - HTTPS: Supports TLS v1.3
+
+**Bug Fixes**
+    - WM: Missing empty value input for header modification  
+    - SNI-based HTTPS: Missing different protocol config for each certificate
+
+19.02.0 (2019.2.11)
+---------------------
+
+**Feature/Policy Updates**
+    - ImageTool(DIMS): quality option added for converting formats
+    - ImageTool(DIMS): max quality option
+    - Logging: image conversion included
+    - Origin request header modification: client request header value to add
+
+**Bug Fixes**
+    - Unintended termination from >50 origin servers
+    - Web Management: SNI configuration reset from HTTPS certificate clustering
+
+19.01.0 (2019.1.16)
+---------------------
+**Feature/Policy Update**
+    - Supports GeoIP2
+
+**Bug Fix**
+    - ImageTool(DIMS): image quality degradation from WebP reformatting
+
     
 v18.x
 ====================================
