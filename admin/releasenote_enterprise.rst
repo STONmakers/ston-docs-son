@@ -3,6 +3,18 @@
 Appendix E: Release Notes  ``[Enterprise]``
 ***********************
 
+v19.x
+====================================
+
+19.06.0 (2019.6.4)
+----------------------------
+
+**Bug Fixes**
+
+    - ImageTool (DIMS): Unncessary Orientation settings required in ByOriginal 
+    - Web Management: Missing ByOriginal settings in duplicated Virtual Hosts
+
+
 v18.x
 ====================================
 
