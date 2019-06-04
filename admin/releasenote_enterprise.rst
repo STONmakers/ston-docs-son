@@ -15,6 +15,19 @@ v19.x
     - Web Management: Missing ByOriginal settings in duplicated Virtual Hosts
 
 
+19.05.0 (2019.5.9)
+----------------------------
+
+**Feature/Policy Change**
+
+    - ImageTool(DIMS): Image orientation added in ByOriginal configuration
+
+**Bug Fix**
+
+    - Unintended termination from GeoIP2 settings (GeoIP2 does not support database file overwriting)
+    
+    
+    
 v18.x
 ====================================
 
