@@ -6,6 +6,59 @@ Appendix E: Release Notes  ``[Enterprise]``
 v19.x
 ====================================
 
+19.11.0 (2019.11.28)
+----------------------------
+**Feature/Policy Changes**
+    - ImageTool (DIMS): Improved parameter exception handling 
+    - Header Modification: #PORT added to the reserved words
+
+**Bug Fixes**
+    - WM: Clustering error caused by 50+ HTTPS certificate installation
+    - Unintended RRD process termination
+
+
+19.10.1 (2019.10.29)
+----------------------------
+**Feature/Policy Changes**
+    - Optimized for large-sized file delivery in LTE networks
+
+19.10.0 (2019.10.10)
+----------------------------
+**Bug Fixes**
+    - HTTPS: Infrequent POST bypass (pass-through) malfunction
+    - Unintended termination if origin servers are excluded AND recovered in one second
+    
+    
+19.09.0 (2019.9.26)
+----------------------------
+**Feature/Policy Changes**
+    - Origin Connection: Supports AWS S3 Authentication (AWS Signature Version 4)
+    - ImageTool (DIMS): Matched Content-Type header values to the converted image formats
+    - WM: Apache HTTPD version update (from v2.2.24 to v2.4.41)
+
+19.08.0 (2019.8.14)
+----------------------------
+**Feature/Policy Updates**
+    - HTTPS: ECDSA key file compatibility improvements
+
+**Bug Fixes**
+    - Web Management: GeoIP database uploading errors
+    - Web Management: Custom TTL value entry errors
+    - HTTPS: Unintended termination from certificate swapping (from DSA to RSA)
+
+19.07.0 (2019.7.4)
+----------------------------
+**Feature/Policy Changes**
+    - Supports RRD data storage configuration
+    - Custom TTL: Origin response condition added
+    - Origin Server Exclusion On/Off added
+    - ImageTool(DIMS): Automatic Rotation added
+
+**Bug Fixes**
+    - WM: Unintended disk initialization during system configuration 
+    - High CPU usage following a hardware info call
+
+
 19.06.0 (2019.6.4)
 ----------------------------
 
