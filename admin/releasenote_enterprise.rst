@@ -6,7 +6,7 @@ Appendix E: Release Notes  ``[Enterprise]``
 v19.x
 ====================================
 
-19.11.0 (2019.11.28)
+19.11.0 (NOV 28, 2019)
 ----------------------------
 **Feature/Policy Changes**
     - ImageTool (DIMS): Improved parameter exception handling 
@@ -17,26 +17,26 @@ v19.x
     - Unintended RRD process termination
 
 
-19.10.1 (2019.10.29)
+19.10.1 (OCT 29, 2019)
 ----------------------------
 **Feature/Policy Changes**
     - Optimized for large-sized file delivery in LTE networks
 
-19.10.0 (2019.10.10)
+19.10.0 (OCT 10, 2019)
 ----------------------------
 **Bug Fixes**
     - HTTPS: Infrequent POST bypass (pass-through) malfunction
     - Unintended termination if origin servers are excluded AND recovered in one second
     
     
-19.09.0 (2019.9.26)
+19.09.0 (SEP 26, 2019)
 ----------------------------
 **Feature/Policy Changes**
     - Origin Connection: Supports AWS S3 Authentication (AWS Signature Version 4)
     - ImageTool (DIMS): Matched Content-Type header values to the converted image formats
     - WM: Apache HTTPD version update (from v2.2.24 to v2.4.41)
 
-19.08.0 (2019.8.14)
+19.08.0 (AUG 14, 2019)
 ----------------------------
 **Feature/Policy Updates**
     - HTTPS: ECDSA key file compatibility improvements
@@ -46,7 +46,7 @@ v19.x
     - Web Management: Custom TTL value entry errors
     - HTTPS: Unintended termination from certificate swapping (from DSA to RSA)
 
-19.07.0 (2019.7.4)
+19.07.0 (JUL 4, 2019)
 ----------------------------
 **Feature/Policy Changes**
     - Supports RRD data storage configuration
@@ -59,7 +59,7 @@ v19.x
     - High CPU usage following a hardware info call
 
 
-19.06.0 (2019.6.4)
+19.06.0 (JUN 4, 2019)
 ----------------------------
 
 **Bug Fixes**
@@ -68,7 +68,7 @@ v19.x
     - Web Management: Missing ByOriginal settings in duplicated Virtual Hosts
 
 
-19.05.0 (2019.5.9)
+19.05.0 (MAY 9, 2019)
 ----------------------------
 
 **Feature/Policy Change**
@@ -79,7 +79,7 @@ v19.x
 
     - Unintended termination from GeoIP2 settings (GeoIP2 does not support database file overwriting)
     
-19.04.0 (2019.4.11)
+19.04.0 (APR 11, 2019)
 ----------------------
 
 **Feature/Policy Updates**
@@ -93,7 +93,7 @@ v19.x
     - Web Management: Disk setting graphing error in English language 
     - HTTPS: Unintended termination from unsupported certificate key files
     
-19.03.0 (2019.3.13)
+19.03.0 (MAR 13, 2019)
 ----------------------
 
 **Feature/Policy Update**
@@ -103,7 +103,7 @@ v19.x
     - WM: Missing empty value input for header modification  
     - SNI-based HTTPS: Missing different protocol config for each certificate
 
-19.02.0 (2019.2.11)
+19.02.0 (FEB 11, 2019)
 ---------------------
 
 **Feature/Policy Updates**
@@ -116,7 +116,7 @@ v19.x
     - Unintended termination from >50 origin servers
     - Web Management: SNI configuration reset from HTTPS certificate clustering
 
-19.01.0 (2019.1.16)
+19.01.0 (JAN 16, 2019)
 ---------------------
 **Feature/Policy Update**
     - Supports GeoIP2
@@ -128,7 +128,7 @@ v19.x
 v18.x
 ====================================
 
-18.9.2 (2018.9.12)
+18.9.2 (SEP 12, 2018)
 ----------------------------
 
 **Bug Fix**
@@ -137,7 +137,7 @@ v18.x
 
 
 
-18.9.1 (2018.9.7)
+18.9.1 (SEP 7, 2018)
 ----------------------------
 
 **Bug Fix**
@@ -145,7 +145,7 @@ v18.x
 - Infrequent extra transaction time in some system environment 
 
 
-18.9.0 (2018.9.3)
+18.9.0 (SEP 3, 2018)
 ----------------------------
 
 **Feature/Policy Updates**
@@ -156,7 +156,7 @@ v18.x
 - Origin HTTPS transaction support
 
 
-18.08.0 (2018.8.8)
+18.08.0 (AUG 8, 2018)
 ----------------------------
 
 **Feature/Policy Updates**
@@ -165,7 +165,7 @@ v18.x
 - DIMS: Content-Type header values matching to the converted image formats
 
 
-18.07.0 (2018.7.10)
+18.07.0 (JUL 10, 2018)
 ----------------------------
 
 **Feature/Policy Updates**
@@ -182,7 +182,7 @@ v18.x
 
 
 
-18.05.1 (2018.5.29)
+18.05.1 (MAY 29, 2018)
 ----------------------------
 
 **Feature/Policy Updates**
@@ -199,7 +199,7 @@ v18.x
 - Potential 304 response from the very first caching in case of “orlater” config for If-Modified-Since header processing
 
 
-18.05.0 (2018.5.15)
+18.05.0 (MAY 15, 2018)
 ----------------------------
 
 - Supports HTTP If-Range headers in client/origin requests
@@ -208,7 +208,7 @@ v18.x
 
 
 
-18.04.0 (2018.4.26)
+18.04.0 (APR 26, 2018)
 ----------------------------
 
 **Feature/Policy Update**
