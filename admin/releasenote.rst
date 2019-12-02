@@ -3,8 +3,90 @@
 Appendix D: Release Notes ``[CDN]``
 ***************************
 
+v2.6.x
+====================================
+
+2.6.18 (NOV 28, 2019)
+----------------------------
+**Feature/Policy Changes**
+    - ImageTool (DIMS): Improved parameter exception handling 
+    - Header Modification: #PORT added to the reserved words
+
+**Bug Fixes**
+    - WM: Clustering error caused by 50+ HTTPS certificate installation
+    - Unintended RRD process termination
+
+
+2.6.17 (OCT 29, 2019)
+----------------------------
+**Feature/Policy Change**
+    - Optimized for large-sized file delivery in LTE networks
+
+2.6.16 (OCT 10, 2019)
+----------------------------
+**Bug Fixes**
+    - HTTPS: Infrequent POST bypass (pass-through) malfunction
+    - Unintended termination if origin servers are excluded AND recovered in one second
+
+2.6.15 (SEP 26, 2019)
+----------------------------
+**Feature/Policy Changes**
+    - Origin Connection: Supports AWS S3 Authentication (AWS Signature Version 4)
+    - ImageTool (DIMS): Matched Content-Type header values to the converted image formats
+    - WM: Apache HTTPD version update (from v2.2.24 to v2.4.41)
+    
+2.6.14 (AUG 8, 2019)
+----------------------------
+**Feature/Policy Updates**
+    - ImageTool: Automatic Rotation (CDN Edition)
+    - HTTPS: ECDSA key file compatibility improvements
+
+**Bug Fixes**
+    - Web Management: GeoIP database uploading errors
+    - Web Management: Custom TTL value entry errors
+    - HTTPS: Unintended termination from certificate swapping (from DSA to RSA)
+    
+2.6.13 (JUL 4, 2019)
+----------------------------
+**Feature/Policy Changes**
+    - Supports RRD data storage configuration
+    - Custom TTL: Origin response condition added
+    - Origin Server Exclusion On/Off added
+    - ImageTool(DIMS): Automatic Rotation added
+
+**Bug Fixes**
+    - WM: Unintended disk initialization during system configuration 
+    - High CPU usage following a hardware info call
+
 v2.5.x
 ====================================
+
+2.5.15 (MAY 21, 2018)
+----------------------
+**Bug Fix**
+    - Potential 304 response from the very first caching in case of “orlater” config for If-Modified-Since header processing
+
+2.5.14 (APR 26, 2018)
+----------------------
+**Feature/Policy Updates**
+    - HTTP If-Range header support for client/origin request handling
+    - Conditional configuration based on If-Modified-Since values
+
+2.5.13 (MAR 27, 2018)
+----------------------
+**Feature/Policy Updates**
+    - Web Management: logos changed
+    - Cache-hit/miss in response headers 
+
+**Bug Fixes**
+    - Increasing inodes from fast content updates at 0 TTLs
+    - Infrequent but growing index file size
+
+2.5.12. (FEB 26, 2018)
+----------------------
+**Feature/Policy Update**
+    - MP4HLS: updated exception handling for media file size discrepancy 
+
 
 2.5.11. (JAN 25, 2018)
 ----------------------
