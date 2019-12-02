@@ -231,7 +231,7 @@ latex_documents = [
 # (source start file, name, description, authors, manual section).
 man_pages = [
     ('index', 'ston', 'STON Documentation',
-     ['JAEHA AHN'], 1)
+     ['WineSOFT'], 1)
 ]
 
 # If true, show URL addresses after external links.
@@ -245,7 +245,7 @@ man_pages = [
 #  dir menu entry, description, category)
 texinfo_documents = [
   ('index', 'STON', 'STON Documentation',
-   'JAEHA AHN', 'STON', 'One line description of project.',
+   'WineSOFT', 'STON', 'One line description of project.',
    'Miscellaneous'),
 ]
 
